@@ -27,7 +27,7 @@ public class Contador {
     static void contar(int parametroUm, int parametroDois) throws ParametrosInvalidosException{
 
         //verifica se parametroUm é maior que parametroDois
-        if(parametroUm>parametroDois){
+        if(parametroUm>=parametroDois){
             throw new ParametrosInvalidosException();
         }
         //senao realiza a contagem dos numeros em ordem crescente
